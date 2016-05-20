@@ -1,43 +1,12 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Laravel</title>
+@extends('layout')
+@section('content')
+    @yield('content')
 
-        <link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css">
-
-        <style>
-            html, body {
-                height: 100%;
-            }
-
-            body {
-                margin: 0;
-                padding: 0;
-                width: 100%;
-                display: table;
-                font-weight: 100;
-                font-family: 'Lato';
-            }
-
-            .container {
-                text-align: center;
-                display: table-cell;
-                vertical-align: middle;
-            }
-
-            .content {
-                text-align: center;
-                display: inline-block;
-            }
-
-            .title {
-                font-size: 96px;
-            }
-        </style>
-    </head>
-    <body>
-       @foreach($people as $person)
-       <li>{{ $person }}</li>
-       @endforeach
-    </body>
-</html>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-md-offset-4"><br><br><br><br>
+                    <h1><a style="a:link {color: red; text-decoration: none;}"href="/cards">CARDS</a></h1>
+                </div>
+            </div>
+        </div>
+@stop
