@@ -5,7 +5,11 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4 col-md-offset-4"><br><br><br><br>
-                    <h1><a style="a:link {color: red; text-decoration: none;}"href="/cards">CARDS</a></h1>
+                    <ul class="list-group">
+                        <li class="list-group-item">
+                            <h3><a href="/cards">CARDS</a></h3>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>

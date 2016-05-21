@@ -3,6 +3,7 @@
     <div class="container">
 	<div class="row">
 		<div class="col-md-4 col-md-offset-4">
+            <br><br><br><br>
             <h1>{{$card->title}}</h1>
             <ul class="list-group">
 				@foreach ($card->notes as $note)
