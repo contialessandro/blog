@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
+use  Illuminate\Database;
+
 use App\Http\Requests;
 
 use App\Card;
@@ -22,6 +24,10 @@ class CardsController extends Controller
 
     public function show(Card $card)
     {
+
+        $card->load('note.users');
+
+        dd($card);
 
     	return view('cards.show', compact('card'));
 
