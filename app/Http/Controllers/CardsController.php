@@ -25,7 +25,7 @@ class CardsController extends Controller
     public function show(Card $card)
     {
 
-        //$card->load('note.users');
+        //$card->load('notes.users');
 
         //dd($card);
 
