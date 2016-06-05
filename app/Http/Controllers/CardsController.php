@@ -21,11 +21,11 @@ class CardsController extends Controller
     public function show(Card $card)
     {
 
-        //$card->load('notes.users');
+        $card->load('notes.user');
 
-        return $card = Card::with('notes')->find(1);
+        //$card = Card::with('notes.user')->find(1);
 
-        //return $card;
+        
 
     	return view('cards.show', compact('card'));
 
