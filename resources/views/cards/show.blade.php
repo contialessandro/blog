@@ -11,7 +11,7 @@
 				@foreach ($card->notes as $note)
 					<li class="list-group-item">{{ $note->body }}
                         <a href="/notes/{{$note->id}}/edit" class="pull-right">Edit</a>
-                        <br>Creaeted by <a href="" class="pull-left"></a>
+                        <br>Creaeted by <a href="#" class="pull-left">{{$note->user_id}}</a>
                     </li>
 				@endforeach
 			</ul>
