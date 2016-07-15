@@ -7,7 +7,7 @@
       <option name="auto-sync" value="false" />
       <option name="auto-commit" value="false" />
     </driver>
-    <driver id="derby.embedded" name="Derby (Embedded)">
+    <driver id="derby.embedded" name="Derby (Embedded)" dialect="Derby">
       <option name="auto-sync" value="true" />
       <option name="auto-commit" value="true" />
       <library>
@@ -62,6 +62,15 @@
     </driver>
     <driver id="sqlserver.ms" name="SQL Server (Microsoft)" dialect="TSQL">
       <option name="auto-sync" value="true" />
+      <library>
+        <url>file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/sqlserver-driver-license.txt</url>
+      </library>
+      <library>
+        <url>file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/sqlserver-win-auth.jar</url>
+      </library>
+      <library>
+        <url>file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/sqljdbc4-4.0.2206.100.jar</url>
+      </library>
     </driver>
     <driver id="db2.jtopen" name="DB2 (JTOpen)" dialect="DB2">
       <option name="auto-sync" value="false" />
