@@ -5,8 +5,9 @@
       <mapping pattern="footer.php" type="PHP" />
       <mapping pattern="footer" type="PHP" />
       <mapping pattern="s" type="PLAIN_TEXT" />
-      <mapping pattern="throughput.blade.php" type="PLAIN_TEXT" />
+      <mapping pattern="plus-btn.blase.php" type="PLAIN_TEXT" />
       <mapping pattern="php" type="PLAIN_TEXT" />
+      <mapping pattern="throughput.blade.php" type="PLAIN_TEXT" />
       <mapping ext="ttf" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
