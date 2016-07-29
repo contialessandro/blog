@@ -1,9 +1,0 @@
-<application>
-  <component name="WebServers">
-    <option name="servers">
-      <webServer id="2bed6723-4318-429d-84e6-0ea9001ba4fb" name="server" url="http://localhost">
-        <fileTransfer port="0" mountedRoot="C:\xampp\htdocs\grocery" accessType="MOUNT" />
-      </webServer>
-    </option>
-  </component>
-</application>
