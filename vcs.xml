@@ -18,6 +18,10 @@
           <option name="url" value="https://github.com/invoiceninja/invoiceninja.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://192.168.48.199/diffusion/FNOWL/fnow_laravel.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="C:\Users\AlessandroConti\PHPStormProject\" />
