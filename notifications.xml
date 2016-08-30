@@ -1,0 +1,10 @@
+<application>
+  <component name="NotificationConfiguration">
+    <notification groupId="Platform and Plugin Updates" displayType="STICKY_BALLOON" shouldLog="false" />
+    <notification groupId="Plugins Suggestion" displayType="STICKY_BALLOON" shouldLog="false" />
+    <notification groupId="Power Save Mode" shouldLog="false" />
+    <notification groupId="Project Startup Tasks Messages" displayType="NONE" shouldLog="false" />
+    <notification groupId="System Health" displayType="STICKY_BALLOON" />
+    <notification groupId="Web Deployment: Remote Host" displayType="TOOL_WINDOW" />
+  </component>
+</application>
